@@ -35,8 +35,17 @@ After successfully installation and configuration run the migrate, import and se
 ./vendor/bin/luya import
 ```
 
+Portfolio Groups
 ![Portfolio Groups](http://luya.vave.pl/images/1.png "Portfolio Groups")
+
+Portfolio Items
 ![Portfolio Items](http://luya.vave.pl/images/2.png "Portfolio Items")
+
+Portfolio Block
 ![Portfolio Block](http://luya.vave.pl/images/3.png "Portfolio Block")
+
+Portfolio View
 ![Portfolio View](http://luya.vave.pl/images/4.png "Portfolio View")
+
+Portfolio View on click
 ![Portfolio View on click](http://luya.vave.pl/images/5.png "Portfolio View on click")
