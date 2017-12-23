@@ -14,4 +14,8 @@ class Main extends \luya\web\Asset
     public $css = [
         'css/portfolio.css',
     ];
+
+    public $depends = [
+        'luya\admin\assets\Jquery',
+    ];
 }
