@@ -4,7 +4,7 @@
 ## Installation
 
 ```php
-composer require johnnymcweed/luya-module-event:dev-master 
+composer require vavepl/luya-module-portfolio:dev-master 
 ```
 ```php
 return [
