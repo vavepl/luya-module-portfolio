@@ -1,9 +1,9 @@
 <?php
 
-namespace vave\portfolio\frontend\blocks;
+namespace vavepl\portfolio\frontend\blocks;
 
-use vave\portfolio\models\Group;
-use vave\portfolio\models\Item;
+use vavepl\portfolio\models\Group;
+use vavepl\portfolio\models\Item;
 use luya\cms\base\PhpBlock;
 use luya\cms\frontend\blockgroups\ProjectGroup;
 

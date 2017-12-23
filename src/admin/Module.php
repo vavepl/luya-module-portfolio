@@ -1,6 +1,6 @@
 <?php
 
-namespace vave\portfolio\admin;
+namespace vavepl\portfolio\admin;
 
 /**
  * Portfolio Admin Module.
@@ -10,8 +10,8 @@ namespace vave\portfolio\admin;
 class Module extends \luya\admin\base\Module
 {
     public $apis = [
-        'api-portfolio-group' => 'vave\portfolio\admin\apis\GroupController',
-        'api-portfolio-item' => 'vave\portfolio\admin\apis\ItemController',
+        'api-portfolio-group' => 'vavepl\portfolio\admin\apis\GroupController',
+        'api-portfolio-item' => 'vavepl\portfolio\admin\apis\ItemController',
     ];
 
     public function getMenu()

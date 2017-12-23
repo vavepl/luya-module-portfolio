@@ -1,6 +1,6 @@
 <?php
 
-namespace vave\portfolio\frontend\assets;
+namespace vavepl\portfolio\frontend\assets;
 
 
 class Main extends \luya\web\Asset

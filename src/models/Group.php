@@ -1,6 +1,6 @@
 <?php
 
-namespace vave\portfolio\models;
+namespace vavepl\portfolio\models;
 
 use Yii;
 use luya\admin\ngrest\base\NgRestModel;

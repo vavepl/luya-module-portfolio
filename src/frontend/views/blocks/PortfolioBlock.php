@@ -9,7 +9,7 @@
  * @var $this \luya\cms\base\PhpBlockView
  */
 
-\vave\portfolio\frontend\assets\Main::register($this->appView);
+\vavepl\portfolio\frontend\assets\Main::register($this->appView);
 
 ?>
 

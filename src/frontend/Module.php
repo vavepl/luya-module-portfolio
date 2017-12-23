@@ -1,6 +1,6 @@
 <?php
 
-namespace portfolio\frontend;
+namespace vavepl\portfolio\frontend;
 
 /**
  * Portfolio Admin Module.

@@ -1,6 +1,6 @@
 <?php
 
-namespace vave\portfolio\admin\apis;
+namespace vavepl\portfolio\admin\apis;
 
 /**
  * Group Controller.
@@ -12,5 +12,5 @@ class GroupController extends \luya\admin\ngrest\base\Api
     /**
      * @var string The path to the model which is the provider for the rules and fields.
      */
-    public $modelClass = 'vave\portfolio\models\Group';
+    public $modelClass = 'vavepl\portfolio\models\Group';
 }
