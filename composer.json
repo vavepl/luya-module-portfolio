@@ -2,7 +2,7 @@
   "name": "vavepl/luya-module-portfolio",
   "description": "Portfolio.",
   "type": "luya-module",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "keywords": ["php", "yii", "yii2", "luya", "luya-module", "module", "portfolio"],
   "license": "MIT",
   "authors": [
