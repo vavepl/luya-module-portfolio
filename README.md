@@ -10,8 +10,8 @@ composer require vavepl/luya-module-portfolio:dev-master
 return [
     'modules' => [
         // ...
-        'portfolio' => 'vave\portfolio\frontend\Module',
-        'portfolioadmin' => 'vave\portfolio\admin\Module',
+        'portfolio' => 'vavepl\portfolio\frontend\Module',
+        'portfolioadmin' => 'vavepl\portfolio\admin\Module',
         // ...
     ],
 ];
