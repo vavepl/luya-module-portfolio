@@ -29,6 +29,7 @@
 .element_portfolio{
     height: 700px;
     background-color:white;
+    padding: 0!important;
 }
 
 .element_portfolio {
