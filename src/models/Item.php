@@ -111,7 +111,7 @@ class Item extends NgRestModel
             'link' => 'text',
             'img_max_id' => 'image',
             'img_min_id' => 'image',
-            'is_active' => ['selectArray', 'data' => ['No', 'Yes']],
+            'is_active' => ['toggleStatus', 'initValue' => 0],
             'priority' => 'sortable',
         ];
     }
