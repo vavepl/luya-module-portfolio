@@ -2,6 +2,7 @@
 
 namespace vavepl\portfolio\models;
 
+use luya\admin\traits\SortableTrait;
 use Yii;
 use luya\admin\ngrest\base\NgRestModel;
 use yii\helpers\ArrayHelper;
@@ -18,6 +19,7 @@ use yii\helpers\ArrayHelper;
  */
 class Group extends NgRestModel
 {
+    use SortableTrait;
     /**
      * @inheritdoc
      */
@@ -84,6 +86,13 @@ class Group extends NgRestModel
     }
 
     /**
+     * @return string
+     */
+    public static function sortableField(){
+        return 'priority';
+    }
+
+    /**
      * @inheritdoc
      */
     public function ngRestScopes()
@@ -99,6 +108,6 @@ class Group extends NgRestModel
      * @return array
      */
     public static function getMenu(){
-        return ArrayHelper::map(self::find()->where(['is_active' => 1])->orderBy(['priority' => SORT_ASC])->all(), 'id', 'group_name');
+        return ArrayHelper::map(self::find()->where(['is_active' => 1])->all(), 'id', 'group_name');
     }
 }

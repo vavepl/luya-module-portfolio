@@ -2,6 +2,7 @@
 
 namespace vavepl\portfolio\models;
 
+use luya\admin\traits\SortableTrait;
 use Yii;
 use luya\admin\ngrest\base\NgRestModel;
 
@@ -23,6 +24,8 @@ use luya\admin\ngrest\base\NgRestModel;
  */
 class Item extends NgRestModel
 {
+    use SortableTrait;
+
     /**
      * @inheritdoc
      */
@@ -61,6 +64,14 @@ class Item extends NgRestModel
             'is_active' => Yii::t('app', 'Is Active'),
             'priority' => Yii::t('app', 'Priority'),
         ];
+    }
+
+    /**
+     * @return string
+     */
+    public static function sortableField()
+    {
+        return 'priority';
     }
 
     /**
@@ -118,7 +129,7 @@ class Item extends NgRestModel
     }
 
     public static function getElements(){
-        $elements = self::find()->where(['is_active' => 1])->orderBy(['priority' => SORT_ASC])->all();
+        $elements = self::find()->where(['is_active' => 1])->all();
         $data = [];
         foreach ($elements as $key=>$element) {
             $data[$key] = $element;
