@@ -22,6 +22,7 @@ return [
 
 ### Initialization 
 
+
 After successfully installation and configuration run the migrate, import and setup command to initialize the module in your project.
 
 1.) Migrate your database.

@@ -96,7 +96,7 @@ class Item extends NgRestModel
             ],
             'name' => 'text',
             'description' => 'text',
-            'color' => 'text',
+            'color' => 'color',
             'link' => 'text',
             'img_max_id' => 'image',
             'img_min_id' => 'image',
