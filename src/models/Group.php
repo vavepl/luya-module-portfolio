@@ -79,7 +79,7 @@ class Group extends NgRestModel
         return [
             'group_name' => 'text',
             'is_active' => ['selectArray', 'data' => ['No', 'Yes']],
-            'priority' => 'number',
+            'priority' => 'sortable',
         ];
     }
 
