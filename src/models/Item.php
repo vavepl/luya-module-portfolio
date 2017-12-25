@@ -70,7 +70,7 @@ class Item extends NgRestModel
     {
         return [
             [['group_id', 'img_max_id', 'img_min_id', 'is_active', 'priority'], 'integer'],
-            [['name', 'description', 'color', 'link'], 'string', 'max' => 255],
+            [['name', 'description', 'color', 'link'], 'string', 'max' => 255]
         ];
     }
 

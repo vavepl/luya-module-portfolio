@@ -9,5 +9,5 @@ namespace vavepl\portfolio\frontend;
  */
 class Module extends \luya\base\Module
 {
-
+    public $useAppViewPath = true;
 }

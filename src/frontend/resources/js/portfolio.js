@@ -20,11 +20,17 @@ $('.portfolio-fade-in').on('click', function () {
     var group = $(this).children('h1')[0].innerText;
     var name = $(this).children('h2')[0].innerText;
     var description = $(this).attr('data-description');
-    $(id + ' .modal-header').html(name);
-    $(id + ' .modal-btn').html(group);
-    $(id + ' .modal-p').html(description);
-    $(id + ' img').attr('src', img);
-    $(id).modal();
+    var link = $(this).attr('data-href');
+    if(link == ''){
+        $(id + ' .modal-header').html(name);
+        $(id + ' .modal-btn').html(group);
+        $(id + ' .modal-p').html(description);
+        $(id + ' img').attr('src', img);
+        $(id).modal();
+    } else {
+        window.open(link, '_blank');
+    }
+
 });
 
 $('.portfolio-sticky-top').css('height', $( window ).height());

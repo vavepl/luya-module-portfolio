@@ -33,7 +33,7 @@
         <div class="row">
             <?php foreach($this->extraValue('elements') as $key=>$element): ?>
                 <div class="col-xs-12 col-lg-3 col-md-6 no-padding element_portfolio group<?= $element->group_id ?>" style="background-image: url('<?= $element->img_min_id->getSource() ?>');">
-                    <div class="portfolio-fade-in" style="background-color:<?= $element->color ?>" data-target="#exampleModal1" data-description="<?= $element->description ?>" data-img="<?= $element->img_max_id->getSource() ?>">
+                    <div class="portfolio-fade-in" style="background-color:<?= $element->color ?>" data-href="<?= $element->link ?>" data-target="#exampleModal1" data-description="<?= $element->description ?>" data-img="<?= $element->img_max_id->getSource() ?>">
                         <h1><?= $element->group->group_name ?></h1>
                         <h2><?= strtoupper($element->name) ?></h2>
                         <i class="fa fa-angle-right"></i>
