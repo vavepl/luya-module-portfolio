@@ -12,7 +12,7 @@ return [
         // ...
         'portfolio' => [
             'class' => 'vavepl\portfolio\frontend\Module',
-            'useAppViewPath' => false //for tests
+            'useAppViewPath' => false, // When disabled the predefined views are used, otherwise you have to create your own views.
         ],
         'portfolioadmin' => 'vavepl\portfolio\admin\Module',
         // ...
