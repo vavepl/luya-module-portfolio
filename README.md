@@ -4,7 +4,7 @@
 ## Installation
 
 ```php
-composer require vavepl/luya-module-portfolio:dev-master 
+composer require vavepl/luya-module-portfolio
 ```
 ```php
 return [
