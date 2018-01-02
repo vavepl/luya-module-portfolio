@@ -1,11 +1,17 @@
 # Portfolio Module
 
+A very easy to use Portfolio Module to show latest work or a collection of data.
  
 ## Installation
 
-```php
+Add the Package to your composer file:
+
+```
 composer require vavepl/luya-module-portfolio
 ```
+
+Add the portfolio module to the modules section your config:
+
 ```php
 return [
     'modules' => [
@@ -21,7 +27,6 @@ return [
 ```
 
 ### Initialization 
-
 
 After successfully installation and configuration run the migrate, import and setup command to initialize the module in your project.
 
